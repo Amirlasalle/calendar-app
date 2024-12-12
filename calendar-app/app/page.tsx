@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="Miro Productions" content="Crafted by Miro Create" />
       </Head>
 
-      <main className="flex flex-col items-center text-dark w-screen min-h-screen dark:text-light overflow-x-hidden overflow-y-scroll ">
+      <main className="flex flex-col items-center text-dark w-screen min-h-screen dark:text-light py-5">
         <Calendar />
       </main>
     </>

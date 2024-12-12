@@ -106,6 +106,7 @@ export default {
       xs: { max: "479px" },
       // => @media (max-width: 479px) { ... }
       xxs: { max: "430px" },
+      micro: { max: "290px" },
 
       "2xlmin": { min: "1535px" },
       // => @media (min-width: 1535px) { ... }

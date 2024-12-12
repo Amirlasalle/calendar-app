@@ -80,7 +80,7 @@ const Calendar: React.FC = () => {
     <div className="w-screen min-h-screen flex flex-col items-center justify-start">
       <div className="flex mdlg:flex-col w-full px-5 justify-start items-start gap-8">
         <div className="w-3/12 mdlg:w-full">
-          <div className="py-10 text-2xl font-extrabold px-7">
+          <div className="pb-5 text-2xl text-center font-extrabold px-7">
             Calendar Events
           </div>
           <ul className="space-y-4">
@@ -111,9 +111,9 @@ const Calendar: React.FC = () => {
           </ul>
         </div>
 
-        <div className="w-9/12 my-8 mdlg:w-full flex flex-col xs:text-xs">
+        <div className="w-9/12 mdlg:w-full py-5 flex flex-col xs:text-xs micro:text-[0.5rem] ">
           <FullCalendar
-            height={"85vh"}
+            height={"85dvh"}
             plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]} // Initialize calendar with required plugins.
             headerToolbar={{
               left: "prev,next today",

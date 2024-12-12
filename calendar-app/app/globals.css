@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .fc .fc-toolbar-title {
   padding: 0.5rem;
 }
@@ -14,9 +15,26 @@
   border-radius: 99999px;
   margin: 5px;
 }
+
+.fc .fc-scrollgrid-liquid {
+  min-height: 20rem;
+}
+
 @media (max-width: 860px) {
   .fc .fc-toolbar {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 479px) {
+  .fc .fc-scrollgrid-liquid {
+    min-height: 11rem;
+  }
+}
+
+@media (max-width: 200px) {
+  .fc .fc-toolbar-title {
+    font-size: 0.75rem;
   }
 }
