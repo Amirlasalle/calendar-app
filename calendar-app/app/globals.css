@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.fc .fc-toolbar-title {
+  padding: 0.5rem;
+}
+.fc .fc-button {
+  @apply bg-miroRed text-white hover:bg-miroRed/80 rounded-md;
+}
+.fc .fc-button-active {
+  @apply bg-green-500 text-white;
+}
+.fc .fc-button {
+  border-radius: 99999px;
+  margin: 5px;
+}
+@media (max-width: 860px) {
+  .fc .fc-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
