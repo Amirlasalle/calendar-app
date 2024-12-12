@@ -113,7 +113,7 @@ const Calendar: React.FC = () => {
 
         <div className="w-9/12 my-8 mdlg:w-full flex flex-col xs:text-xs">
           <FullCalendar
-            height={"85dvh"}
+            height={"85vh"}
             plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]} // Initialize calendar with required plugins.
             headerToolbar={{
               left: "prev,next today",
