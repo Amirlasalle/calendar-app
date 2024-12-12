@@ -1,6 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Layout from "./components/main/Layout";
+import React from "react";
 import Head from "next/head";
 import Calendar from "./components/main/Calendar";
 
